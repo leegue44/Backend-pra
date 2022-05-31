@@ -17,7 +17,6 @@ public class Dogtest {
 		dog[4].setname("똥개5");
 		dog[4].setType("샤브르자조르경5");
 		
-	for(Dog i :dog)
-		i.showDoginfo();
+		
 	}
 }
