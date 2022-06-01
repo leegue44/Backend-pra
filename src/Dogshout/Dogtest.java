@@ -16,6 +16,7 @@ public class Dogtest {
 		dog[3].setType("샤브르자조르경4");
 		dog[4].setname("똥개5");
 		dog[4].setType("샤브르자조르경5");
+		System.out.println("dididi");
 		
 		
 	}
