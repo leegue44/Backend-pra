@@ -1,0 +1,11 @@
+package Interface_polymorphism;
+
+public class AgentGetCall implements Scheduler{
+	public void getNextCall() {
+		System.out.println("상담원이 다음 전화 요청");
+	}
+	public void sendCallToAgent() {
+		System.out.println("상담원이 전화 상담을 가져 갔습니다.");
+	}
+
+}
