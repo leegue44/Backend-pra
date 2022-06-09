@@ -1,8 +1,9 @@
 package Interface_patice;
-
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 public class CalculatorTest {
-
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException {
 		// TODO Auto-generated method stub
 		int num1=10;
 		int num2 =5;
@@ -15,6 +16,11 @@ public class CalculatorTest {
 		calc.showInfo();
 		int[] arr = {1,2,3,4,5};
 		System.out.println(Calc.total(arr));
+		Class c = Class.forName("java.lang.String");
+		Constructor[] cons =c.getConstructors();
+		for(Constructor g: cons) {
+			System.out.println(g);
+		}
 	}
 
 }
